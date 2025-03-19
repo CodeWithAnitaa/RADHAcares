@@ -1,99 +1,61 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f5f0;
+    text-align: center;
+    background-color: #f8f9fa;
     color: #333;
+    margin: 0;
+    padding: 20px;
 }
 
 .container {
-    width: 80%;
+    max-width: 600px;
     margin: auto;
-    padding: 20px 0;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.section {
-    padding: 50px 0;
-    text-align: center;
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+h1 {
+    color: #007b5e;
+    font-size: 2em;
 }
 
 h2 {
-    color: #222;
-    font-size: 2em;
-    text-transform: uppercase;
+    color: #00563f;
+    margin-top: 20px;
 }
 
-/* Header and Banner */
-header {
-    background-color: #f1b600;
-    color: black;
-    text-align: center;
-    padding: 20px 0;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.banner {
-    background: url('https://source.unsplash.com/1600x600/?charity,help') center/cover no-repeat;
-    padding: 80px 20px;
+ul li {
+    background: #007b5e;
     color: white;
-    text-align: center;
-}
-
-.banner h1 {
-    font-size: 2.5em;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
 }
 
 .btn {
     display: inline-block;
-    background: black;
+    background: #007b5e;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    font-weight: bold;
     border-radius: 5px;
-    transition: 0.3s;
+    margin-top: 20px;
 }
 
 .btn:hover {
-    background: #f1b600;
-    color: black;
+    background: #00563f;
 }
 
-/* About Section */
-.content {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.content img {
-    width: 45%;
-    border-radius: 10px;
-}
-
-.content p {
-    width: 50%;
-    font-size: 1.2em;
-    line-height: 1.6;
-}
-
-/* Footer */
-footer {
-    background: black;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.social-icons a {
-    color: white;
-    margin: 0 10px;
-    font-size: 1.5em;
-    transition: 0.3s;
-}
-
-.social-icons a:hover {
-    color: #f1b600;
-}
