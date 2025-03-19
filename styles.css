@@ -1,35 +1,37 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-color: #fff8e1;
+    background-color: #fff3e0;
     color: #333;
     margin: 0;
     padding: 20px;
 }
 
 .container {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
     background: #ffebee;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(255, 87, 34, 0.4);
 }
 
 .logo {
-    width: 150px;
+    width: 180px;
     display: block;
     margin: 0 auto 20px;
 }
 
 h1 {
-    color: #d81b60;
-    font-size: 2em;
+    color: #ff4081;
+    font-size: 2.5em;
+    font-weight: bold;
 }
 
 h2 {
-    color: #c2185b;
+    color: #d81b60;
     margin-top: 20px;
+    font-weight: bold;
 }
 
 ul {
@@ -40,36 +42,50 @@ ul {
 ul li {
     background: #ff80ab;
     color: white;
-    padding: 10px;
-    margin: 5px 0;
-    border-radius: 5px;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: transform 0.3s ease-in-out;
+}
+
+ul li:hover {
+    transform: scale(1.05);
+    background: #ff4081;
 }
 
 .btn {
     display: inline-block;
-    background: #ff4081;
+    background: #ff9800;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-weight: bold;
     margin-top: 20px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: background 0.3s, transform 0.3s;
 }
 
 .btn:hover {
-    background: #f50057;
+    background: #f57c00;
+    transform: scale(1.1);
 }
 
 .section {
-    padding: 20px;
-    margin-top: 20px;
-    background: #fce4ec;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
+    padding: 25px;
+    margin-top: 25px;
+    background: #fff3e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
 }
 
 img {
     width: 100%;
-    border-radius: 10px;
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
