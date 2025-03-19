@@ -174,3 +174,25 @@ img:hover {
     font-size: 1.2em;
     font-weight: bold;
 }
+
+.donate-now {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.donate-now a {
+    display: inline-block;
+    background: #ff4081;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.donate-now a:hover {
+    background: #c2185b;
+    transform: scale(1.1);
+}
