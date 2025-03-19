@@ -1,7 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-color: #fff3e0;
+    background-color: #e0f7fa; /* Light Cyan (Sky Blue Theme) */
     color: #333;
     margin: 0;
     padding: 20px;
@@ -10,10 +10,10 @@ body {
 .container {
     max-width: 800px;
     margin: auto;
-    background: #ffebee;
+    background: #b3e5fc; /* Light Blue */
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(255, 87, 34, 0.4);
+    box-shadow: 0 4px 20px rgba(3, 169, 244, 0.4); /* Sky Blue Shadow */
 }
 
 .logo {
@@ -23,25 +23,25 @@ body {
 }
 
 h1 {
-    color: #ff4081;
+    color: #0288d1; /* Dark Sky Blue */
     font-size: 2.5em;
     font-weight: bold;
 }
 
 h2 {
-    color: #d81b60;
+    color: #0277bd; /* Slightly Darker Blue */
     margin-top: 20px;
     font-weight: bold;
 }
 
 .vision {
-    background: #fff3e0;
+    background: #e1f5fe; /* Lightest Blue */
     padding: 20px;
     margin-top: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
+    box-shadow: 0 4px 15px rgba(3, 169, 244, 0.3);
     font-weight: bold;
-    color: #d81b60;
+    color: #01579b;
 }
 
 .vision p {
@@ -49,13 +49,13 @@ h2 {
 }
 
 .founder {
-    background: #ffebee;
+    background: #b3e5fc;
     padding: 20px;
     margin-top: 20px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
+    box-shadow: 0 4px 15px rgba(3, 169, 244, 0.3);
     font-weight: bold;
-    color: #ff4081;
+    color: #0288d1;
 }
 
 .founder h3 {
@@ -74,7 +74,7 @@ ul {
 }
 
 ul li {
-    background: #ff80ab;
+    background: #29b6f6;
     color: white;
     padding: 12px;
     margin: 8px 0;
@@ -85,12 +85,12 @@ ul li {
 
 ul li:hover {
     transform: scale(1.05);
-    background: #ff4081;
+    background: #0288d1;
 }
 
 .btn {
     display: inline-block;
-    background: #ff9800;
+    background: #0277bd;
     color: white;
     padding: 12px 24px;
     text-decoration: none;
@@ -102,16 +102,16 @@ ul li:hover {
 }
 
 .btn:hover {
-    background: #f57c00;
+    background: #01579b;
     transform: scale(1.1);
 }
 
 .section {
     padding: 25px;
     margin-top: 25px;
-    background: #fff3e0;
+    background: #e1f5fe;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
+    box-shadow: 0 4px 15px rgba(3, 169, 244, 0.3);
 }
 
 img {
@@ -125,21 +125,21 @@ img:hover {
 }
 
 .donate-section {
-    background: #ffebee;
+    background: #b3e5fc;
     padding: 20px;
     margin-top: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
+    box-shadow: 0 4px 15px rgba(3, 169, 244, 0.3);
     text-align: center;
 }
 
 .donate-section h2 {
-    color: #d81b60;
+    color: #0277bd;
 }
 
 .donate-btn {
     display: inline-block;
-    background: #ff4081;
+    background: #0288d1;
     color: white;
     padding: 14px 28px;
     text-decoration: none;
@@ -151,21 +151,21 @@ img:hover {
 }
 
 .donate-btn:hover {
-    background: #c2185b;
+    background: #01579b;
     transform: scale(1.1);
 }
 
 .founder {
     text-align: center;
     padding: 20px;
-    background: #fff3e0;
+    background: #e0f7fa;
     margin-top: 30px;
     border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
+    box-shadow: 0 4px 15px rgba(3, 169, 244, 0.3);
 }
 
 .founder h3 {
-    color: #d81b60;
+    color: #0277bd;
     font-size: 1.8em;
 }
 
@@ -182,7 +182,7 @@ img:hover {
 
 .donate-now a {
     display: inline-block;
-    background: #ff4081;
+    background: #0288d1;
     color: white;
     padding: 14px 28px;
     text-decoration: none;
@@ -193,6 +193,6 @@ img:hover {
 }
 
 .donate-now a:hover {
-    background: #c2185b;
+    background: #01579b;
     transform: scale(1.1);
 }
