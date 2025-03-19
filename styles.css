@@ -1,79 +1,75 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f5f0;
+    text-align: center;
+    background-color: #f8f9fa;
     color: #333;
-}
-
-header {
-    background-color: #f1b600;
+    margin: 0;
     padding: 20px;
-    text-align: center;
 }
 
-.nav-container ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+h1 {
+    color: #007b5e;
+    font-size: 2em;
+}
+
+h2 {
+    color: #00563f;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
     padding: 0;
 }
 
-.nav-container ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+ul li {
+    background: #007b5e;
+    color: white;
     padding: 10px;
-    transition: 0.3s;
-}
-
-.nav-container ul li a:hover {
-    color: white;
-    background-color: black;
+    margin: 5px 0;
     border-radius: 5px;
-}
-
-.hero {
-    background: url('https://source.unsplash.com/1600x600/?charity,help') center/cover no-repeat;
-    padding: 100px 20px;
-    text-align: center;
-    color: white;
 }
 
 .btn {
     display: inline-block;
-    background: black;
+    background: #007b5e;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
-    font-weight: bold;
     border-radius: 5px;
-    transition: 0.3s;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
 }
 
 .btn:hover {
-    background: #f1b600;
-    color: black;
+    background: #00563f;
 }
 
 .section {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.grid {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-}
-
-.card {
-    background: white;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 250px;
+    margin-top: 20px;
+    background: #e9ecef;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
 }
