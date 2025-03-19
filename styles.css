@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f8f9fa;
+    background-color: #fff8e1;
     color: #333;
     margin: 0;
     padding: 20px;
@@ -10,10 +10,10 @@ body {
 .container {
     max-width: 600px;
     margin: auto;
-    background: white;
+    background: #ffebee;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
 }
 
 .logo {
@@ -23,12 +23,12 @@ body {
 }
 
 h1 {
-    color: #007b5e;
+    color: #d81b60;
     font-size: 2em;
 }
 
 h2 {
-    color: #00563f;
+    color: #c2185b;
     margin-top: 20px;
 }
 
@@ -38,7 +38,7 @@ ul {
 }
 
 ul li {
-    background: #007b5e;
+    background: #ff80ab;
     color: white;
     padding: 10px;
     margin: 5px 0;
@@ -47,7 +47,7 @@ ul li {
 
 .btn {
     display: inline-block;
-    background: #007b5e;
+    background: #ff4081;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -58,15 +58,15 @@ ul li {
 }
 
 .btn:hover {
-    background: #00563f;
+    background: #f50057;
 }
 
 .section {
     padding: 20px;
     margin-top: 20px;
-    background: #e9ecef;
+    background: #fce4ec;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.3);
 }
 
 img {
