@@ -34,6 +34,40 @@ h2 {
     font-weight: bold;
 }
 
+.vision {
+    background: #fff3e0;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
+    font-weight: bold;
+    color: #d81b60;
+}
+
+.vision p {
+    font-size: 1.2em;
+}
+
+.founder {
+    background: #ffebee;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(255, 87, 34, 0.3);
+    font-weight: bold;
+    color: #ff4081;
+}
+
+.founder h3 {
+    font-size: 1.5em;
+}
+
+.founder img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
